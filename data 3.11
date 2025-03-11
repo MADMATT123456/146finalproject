@@ -1,0 +1,26 @@
+% Earth data
+planet.earth.mass = 5.9722e24;         % Kg
+planet.earth.u = 3.986004418e5;        % Gravitational parameter (km^3/s^2)
+planet.earth.radius = 6371.000;        % Volumetric mean radius (km)
+planet.earth.rav = 7.27e-5;            % Self-rotational angular velocity (rad/s)
+planet.earth.rinc = 23.45;             % Rotation inclination (deg)
+
+% Mars data
+planet.mars.mass = 0.64169e24;         % Kg
+planet.mars.u = 4.282837e4;            % Gravitational parameter (km^3/s^2)
+planet.mars.radius = 3389.5;           % Volumetric mean radius (km)
+planet.mars.rav = 7.08e-5;             % Self-rotational angular velocity (rad/s)
+planet.mars.rinc = 25.19;              % Rotation inclination (deg)
+
+% Sun data
+planet.sun.mass = 1.989e30;            % Kg
+planet.sun.u = 1.32712440018e11;       % Gravitational parameter (km^3/s^2)
+
+% Starship Data
+starship.mass = 100000;                 % Dry mass (kg)
+starship.fuel.mass = 2300000;           % Fuel mass (kg)
+starship.fuel.isp = 390;                % ISP in vacuum (s)
+starship.fuel.thrust = 2.75e6;          % Total thrust (N)
+starship.pos = [6878, 0, 0];            % Assuming 500 km altitude circular orbit (km)
+starship.vel = NaN;                     % To be determined
+starship.acc = NaN;                     % To be determined
